@@ -1,11 +1,17 @@
 Follow these instructions to build and run the docker image:
 
 1. Build image:
-`$ sudo docker build . -t hugo-image:v1`
+```bash
+$ sudo docker build . -t hugo-image:v1
+```
 
 2. Run container with crypto currency name:
-`$ sudo docker run -it --rm hugo-image:v1 'Bitcoin Cash'`
-`$ sudo docker run -it --rm hugo-image:v1 'Ethereum'`
+```bash
+$ sudo docker run -it --rm hugo-image:v1 'Bitcoin Cash'
+```
+```bash
+$ sudo docker run -it --rm hugo-image:v1 'Ethereum'
+```
 
 These are the case-sensitive cyrpto currency names recognized
 by the CoinMarketCap api:
